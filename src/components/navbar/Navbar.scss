@@ -1,0 +1,27 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 10px;
+    background-color: #fff;
+    .logo-navbar {
+        width: 150px;
+        height: 41px;
+    }
+
+    .burguer-btn {
+        border-radius: 50%;
+        background-color: #fff;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: thin solid #6e6e6e;
+        .burguer-btn-img {
+            height: 80%;
+            width: 80%;
+        }
+    }
+}
