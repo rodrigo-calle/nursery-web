@@ -1,0 +1,41 @@
+.carouselContainer {
+    background-image: url("https://res.cloudinary.com/dwat1o60y/image/upload/v1672189121/vivero/carousel-background_meq3nf.jpg");
+    height: 60vh;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 260%;
+    display: flex;
+    align-items: center;
+    .carousel-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        padding: 0px 15px;
+        .carousel-content__subtitle {
+            color: #84b6f4;
+            font-size: 28px;
+            font-weight: 400;
+            margin: 5px 0px;
+        }
+    
+        .carousel-content__title {
+            font-size: 40px;
+            line-height: 40px;
+            margin: 25px 0px;
+            font-weight: 500;
+        }
+    
+        .carousel-content__button {
+            background-color: #4a171e;
+            border: none;
+            color: #fff;
+            padding: 20px 15px;
+            font-size: 18px;
+            margin: 5px 0px;
+        }
+    }
+
+}
